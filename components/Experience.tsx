@@ -36,9 +36,20 @@ const Experience = () => {
                 className="lg:w-32 md:w-20 w-16"
               />
               <div className="lg:ms-5">
-                <h1 className="text-start text-xl md:text-2xl font-bold">
-                  {card.title}
-                </h1>
+                <div className="flex items-center justify-between">
+                  <h1 className="text-start text-xl md:text-2xl font-bold">
+                    {card.title}
+                  </h1>
+
+                  <div className="grid gap-1 ">
+                    <p className="font-bold text-xl mr-1 text-purple">
+                      {card.organization}
+                    </p>
+                    <p className="font-semibold text-[10px] text-white-200 ">
+                      {card.start} - {card.end}
+                    </p>
+                  </div>
+                </div>
                 <p className="text-start text-white-100 mt-3 font-semibold">
                   {card.desc}
                 </p>

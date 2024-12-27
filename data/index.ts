@@ -1,3 +1,5 @@
+import { start } from "repl";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -72,7 +74,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
+    title: "Dummy Project",
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
@@ -80,27 +82,27 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Touch/Keyboard Drumset",
+    des: "Digital drumset experience. Play realistic drum sounds on-screen or with MIDI keyboard. Built with HTML, CSS, React, and JavaScript",
+    img: "/Drumset Website.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://keyboard-drumset.netlify.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Brainwave Website",
+    des: "Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.",
+    img: "/Brainwave.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://brainwaveeeeeee.netlify.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "Iphone 15 pro",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://iphone15-promax.netlify.app/",
   },
 ];
 
@@ -173,7 +175,10 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "SDET in Jio Platforms Limited",
+    title: "SDET",
+    organization: "Jio Platforms Limited",
+    start: "Jan 2024",
+    end: "Present",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
@@ -181,20 +186,29 @@ export const workExperience = [
   {
     id: 2,
     title: "Product Trainee",
+    organization: "Observance Solution",
+    start: "Mar 2023",
+    end: "Aug 2023",
     desc: "Developed AI models in Python, exploring various techniques for intelligent solutions.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Frontend Engineer Intern",
+    title: "Frontend Intern",
+    organization: "eCampus",
+    start: "Jul 2022",
+    end: "Sep 2022",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Web developer and designer Intern",
+    title: "Web Developer Intern",
+    organization: "Oasis Infobyte",
+    start: "Feb 2022",
+    end: "Mar 2022",
     desc: "Developed 2 webpages and a calculator as a web development and design intern, enhancing practical skills.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
