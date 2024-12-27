@@ -19,7 +19,7 @@ and many more, including code architecture and reusability
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/portfolio.git
+git clone https://github.com/KushagraBhadauria/Kushagra-Bhadauria-Portfolio.git
 cd portfolio
 ```
 
