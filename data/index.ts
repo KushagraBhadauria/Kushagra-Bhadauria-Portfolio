@@ -2,8 +2,9 @@ import { start } from "repl";
 
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Projects", link: "#RecentProjects" },
+  // { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#Experience" },
   { name: "Contact", link: "#contact" },
 ];
 
