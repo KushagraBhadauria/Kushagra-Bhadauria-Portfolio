@@ -189,7 +189,7 @@ export const workExperience = [
     title: "Product Trainee",
     organization: "Observance Solution",
     start: "Mar 2023",
-    end: "Aug 2023",
+    end: "Dec 2023",
     desc: "Developed AI models in Python, exploring various techniques for intelligent solutions.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
