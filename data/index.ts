@@ -176,7 +176,7 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "SDET",
+    title: "SDE",
     organization: "Jio Platforms Limited",
     start: "Jan 2024",
     end: "Present",
